@@ -21,6 +21,7 @@
 
 @void *armmemcpy          ( void *dest, const void *src, size_t n);
 
+.section .init2,"ax",%progbits
 .align 4
 .global armmemcpy
 .arm
