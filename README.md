@@ -17,4 +17,7 @@ Compile with dkARM r43: Makefile_dkarm (rename it to Makefile) -> make clean -> 
 Compile with TGDS 1.5: Makefile -> make clean -> make
 License: GPLv2
 
+Notes:
+TGDS RAMDISK only works mapped : GBA Slot-2 @ ARM9
+
 Coto.
