@@ -1,5 +1,3 @@
-#include "dldi.h"
-
 /*
 
 			Copyright (C) 2017  Coto
@@ -20,35 +18,31 @@ USA
 
 */
 
+#include "dldi.h"
 #include <stdbool.h>
 
 /////////////////////////////////////////////////// RAM Disk DLDI Implementation ////////////////////////////////////////////
 
-__attribute__((section(".init2")))
 bool _DLDI_isInserted(void)
 {
 	return true;	//Always True
 }
 
-__attribute__((section(".init2")))
 bool _DLDI_clearStatus(void)
 {
     return true;	//Always True
 }
 
-__attribute__((section(".init2")))
 bool _DLDI_shutdown(void)
 {
     return true;	//Always True
 }
 
-__attribute__((section(".init2")))
 bool _DLDI_startup(void)
 {
     return true;	//Always True
 } 
 
-__attribute__((section(".init2")))
 bool _DLDI_writeSectors(unsigned int sector, unsigned int sectorCount, const unsigned char* buffer)
 {
 	int sectorSize = 512;
@@ -62,7 +56,6 @@ bool _DLDI_writeSectors(unsigned int sector, unsigned int sectorCount, const uns
     return true;
 }
 
-__attribute__((section(".init2")))
 bool _DLDI_readSectors(unsigned int sector, unsigned int sectorCount, unsigned char* buffer)
 {
 	int sectorSize = 512;

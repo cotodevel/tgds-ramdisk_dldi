@@ -1,5 +1,14 @@
 tgds-ramdisk_dldi
 
+Update 0.1.2:
+- Remove static DLDI allocation, all compiled objects are ordered the way they should: dynamically, while filling DLDI binary to 16K
+
+Update 0.1.1:
+-Add ToolchainGenericDS environment and distributed DLDI is generated from it.
+
+First Release 0.1: Add TGDS Project
+
+
 A NEAT ToolchainGenericDS tool. Enables Ramdisk DLDI for emulators mapping a FAT16/FAT32 filesystem to GBA's Slot-2. 
 DSOrganize, SnemulDS, and TGDS Projects can now mount and work with TGDS Filesystem's DLDI code. 
 devkitARM homebrew working as well!!
