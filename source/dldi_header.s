@@ -46,7 +46,7 @@
 @---------------------------------------------------------------------------------
 @ IO_INTERFACE data -- 32 bytes
 	.ascii	"DLDI"			@ ioType	
-	.word	FEATURE_MEDIUM_CANREAD | FEATURE_SLOT_NDS  | FEATURE_MEDIUM_CANWRITE
+	.word	FEATURE_MEDIUM_CANREAD | FEATURE_SLOT_GBA  | FEATURE_MEDIUM_CANWRITE
 	.word	_DLDI_startup			@ 
 	.word	_DLDI_isInserted		@ 
 	.word	_DLDI_readSectors		@   Function pointers to standard device driver functions
