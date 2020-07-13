@@ -23,7 +23,7 @@ Launch emulator, TGDS Project now works with DLDI (32MB @ 0x08000000)!
 
 Compile with dkARM r43: Makefile_dkarm (rename it to Makefile) -> make clean -> make
 
-Compile with TGDS 1.5: Makefile -> make clean -> make
+Compile with TGDS 1.6: Makefile -> make clean -> make
 License: GPLv2
 
 Notes:
