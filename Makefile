@@ -23,7 +23,7 @@ export SOURCE_MAKEFILE7 = default
 export SOURCE_MAKEFILE9 = default
 
 #Shared
-include $(DEFAULT_GCC_PATH_WIN)/Makefile.basenewlib
+include $(DEFAULT_GCC_PATH)/Makefile.basenewlib
 
 #Custom
 # Project Specific
